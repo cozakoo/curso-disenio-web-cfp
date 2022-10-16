@@ -1,0 +1,45 @@
+<!--    RESPUESTAS A CONSIGNA 
+a) ¿Cuántas cajas contenedoras hay? ¿Están identificadas por id o por class?
+Hay 3 cajas contenedoras identificadas por clase.
+
+b) ¿Cuál es el grosor del borde de la caja azul y en qué unidades está expresado?
+El grosor del borde de la caja azul es un borde solido expresado en pixeles, la propiedad utiliza un borde de 3px 
+
+c) ¿Por qué se superponen unas cajas encima de otras? ¿En qué orden aparecen las cajas superpuestas
+(es decir, cuál está arriba, cuál está en posición intermedia y cuál está en el fondo)? ¿Por qué
+aparecen con ese orden y no otro?
+Las cajas se superponen entre ellas por el orden en el que fueron creadas.
+Las cajas aparecen en el siguiente orden: 
+	1. Caja gris
+	2. Caja azul
+	3. Caja ocre
+
+d) Queremos que la caja gris se sitúe por encima del resto de cajas. ¿Qué modificaciones en el código hemos de hacer
+para lograr este objetivo?
+Para que la caja gris sea situada por encima del resto hay que incorporar dos atributo: "z-index" y "position". 
+z-index con un valor positivo y position en relative.
+Ej: 	z-index: 20;
+	position: relative;	
+
+
+e) Modifica el código para que la caja ocre quede en el fondo, la caja azul en
+posición intermedia y la caja gris encima. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="visibilidad.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cajaGris">Caja gris</div>
+    <div class="cajaAzul">Caja azul</div>
+    <div class="cajaOcre">Caja ocre</div>
+</body>
+
+</html>

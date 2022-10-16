@@ -1,0 +1,35 @@
+body {
+    background-color: #2A0944;
+}
+
+.divPadre {
+    background-color: aqua;
+}
+
+.divHijo1 {
+    /* dimensiones */
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+}
+
+.divHijo2 {
+    /* dimensiones */
+    width: 400px;
+    height: 400px;
+    background-color: green;
+}
+
+.divHijo3 {
+    /* dimensiones */
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.divHijo1,
+.divHijo2,
+.divHijo3 {
+    /* posicionamiento */
+    position: absolute;
+}

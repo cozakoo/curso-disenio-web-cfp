@@ -1,0 +1,29 @@
+
+.contenedor{width: 70%;
+			margin: 40px auto;
+			padding: 20px;
+			border: 3;
+			border-color: black;
+			border-style: solid;
+
+}
+
+
+
+.objeto{width: 100px;
+		height: 100px;
+		background: black;
+
+		transition-property: all; /*Con esta propiedad le indico que todas las propiedades tendran un efecto de transición */
+		transition-duration: 4s;
+		
+		}
+
+
+.contenedor:hover .objeto{transform: translate(700px); /*hover indica que al pasar el mouse por el elemento que tenga la clase ".contenedor" modificará el elemento que contiene la clase ".objeto"*/
+		background-color: red;
+		border-radius: 50%;
+							}
+
+/*Como verán estas clases estan aplicada a DIV vacios, las mismas se puede 
+aplicar a otros elementos como tambien se puede aplicar otras propiedades y valores.*/

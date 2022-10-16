@@ -1,0 +1,27 @@
+.Ejemplo_box_shadow {
+    border: 2;
+    border-style: solid;
+    box-shadow: rgba(124, 109, 109, 0.801) 10px 10px 5px 7px;
+    width: 30%;
+}
+.Ejemplo_text_shadow{
+    text-align: center;
+    text-shadow: rgb(223, 32, 32) 10px 15px 0px;
+}
+
+#modelos{
+    transition: left 1.5s;
+    transform: translate(50%,0px);
+    transform: rotate(90deg);
+    transform: scale(2,1.75);
+    transform: skew(10,25);
+    transform: translate(200px,0px) rotate(33deg) scale(0.5,0.5);
+}
+#modelos:hover{
+    position: relative;
+    left: 400px;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}

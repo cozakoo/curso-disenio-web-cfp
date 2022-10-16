@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border: 3px solid #000;
+    border-spacing: 0;
+ }
+ th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid #000;
+ }
+
+video{
+    display: block;
+    margin: 0px auto;
+ }
+ 
+audio{
+    display: block;
+    margin: 0px auto;
+ }
+ 
+ h3{
+    text-align: center;
+ }

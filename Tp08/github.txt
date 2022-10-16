@@ -1,0 +1,33 @@
+----------------------------SUBIR----------------------------------------------
+|git init
+|git add .
+|git commit -m "first commit"
+|git branch -M main
+|git remote add origin https://github.com/cozakoo/CursoDiseniadorWeb_Tp8.git
+|git push -u origin main
+-------------------------------------------------------------------------------
+
+-------------------------ACTUALIZAR--------------------------------------------
+|git init
+|git add .
+|git commit -m "actualizacion del proyecto"
+|---PUEDE HABER ERROR EN ESTA INSTUCCION
+|git remote add origin https://github.com/cozakoo/CursoDiseniadorWeb_Tp8.git
+|git branch -M main
+|git push -u origin main
+|------------------------------------------------------------------------------
+
+-------------------------DESCARGAR---------------------------------------------
+|git init
+|git remote add origin https://github.com/cozakoo/CursoDiseniadorWeb_Tp8.git	
+|git remote -v
+|git clone https://github.com/cozakoo/portafolioWeb-FrontEnd.git
+|ls -l
+-------------------------------------------------------------------------------
+
+-------------------------DESCARGAR---------------------------------------------
+|git init												
+|git config user.name cozakoo
+|git config user.email martinarcosvargas2@gmail.com
+|git config user.password [TOKEN ACCES]
+-------------------------------------------------------------------------------

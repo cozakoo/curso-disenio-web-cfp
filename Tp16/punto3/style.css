@@ -1,0 +1,56 @@
+body {
+    background-color: #483838;
+}
+
+.divPadre {
+    padding: 15px;
+    background-color: #42855B;
+    bottom: auto;
+    margin: 12px;
+    margin-right: auto;
+    width: 75%;
+    /* margin-righ; */
+}
+
+.divHijo1,
+.divHijo2,
+.divHijo3,
+.divHijo4 {
+    display: inline-block;
+}
+
+.divHijo1 {
+    /* dimensiones */
+    height: 100px; /*consigna*/
+    background-color: #90B77D;
+    position: fixed;
+}
+
+.divHijo2 {
+    /* dimensiones */
+    width: 400px;
+    height: auto;
+    background-color: #D2D79F;
+}
+
+.divHijo3 {
+    /* dimensiones */
+    width: 100px;
+    height: 100px;
+    /* desplazamiento */
+    position: relative;
+    left: 200px;
+    top: 100px;
+    background-color: white;
+}
+
+.divHijo4 {
+    /* desplazamiento */
+
+    left: 100px;
+
+    /* dimensiones */
+    width: 100px;
+    height: 100px;
+    background-color: rgb(196, 29, 29);
+}

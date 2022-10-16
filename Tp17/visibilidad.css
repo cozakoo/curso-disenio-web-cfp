@@ -1,0 +1,39 @@
+* {
+        font-family: sans-serif;
+}
+
+.cajaGris {
+        width: 225px;
+        height: 225px;
+        border: solid 1px #ccc;
+        background: #ddd;
+        margin-top: 30px;
+        position: relative;
+        z-index: 0;
+
+}
+
+.cajaAzul {
+        width: 225px;
+        height: 225px;
+        border: solid 3px #4a7497;
+        background: #8daac3;
+        margin-top: -50px;
+        margin-left: 50px;
+        /* z-index: -99; */
+
+}
+
+.cajaOcre {
+        width: 225px;
+        height: 500px;
+        border: solid 2px #8b6125;
+        background: #ba945d;
+        margin-top: -50px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        position: relative;
+
+        z-index: -20;
+
+}

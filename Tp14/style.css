@@ -1,0 +1,34 @@
+body {
+    /* A: relleno izquiero y derecho de 10px */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    border: 2px solid #00f;
+    /* B: relleno de 10 px */
+    padding: 10px;
+    background-color: green;
+    /* C: Margen superior e inferior */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    border: 2px solid #AAA;
+    /* D: relleno de 5px */
+    padding: 5px;
+    background-color: aquamarine;
+    /* E: Margin superior e inferior de 15 px */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li {
+    /* F: Margen entre los elementos de la lista de 15px */
+    margin: 15px;
+}
+
+ul{
+    border: 2px solid #0F0;
+}

@@ -1,0 +1,18 @@
+body {
+  /* background-color: rgb(164, 110, 214); */
+  background-image:url(src/Penguins.jpg);
+  background-repeat: repeat;
+  background-size: 20%;
+}
+
+p {
+  background-color: rgb(78, 73, 73);
+  color: rgb(187, 33, 105);
+  font-weight: bold;
+}
+
+h6 {
+  letter-spacing: 5px;
+  text-align: right;
+  text-decoration: underline;
+}

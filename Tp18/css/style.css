@@ -1,0 +1,23 @@
+.miDiv {
+    /* dimensiones */
+    width: 200px;
+    height: 200px;
+
+    /* color fondo */
+    background-color: yellow;
+
+    /* borde */
+    border: 2px solid blue;
+
+    /* tamaño texto */
+    font-size: 30px;
+
+    /* scroll horizontal y vertical */
+    overflow: scroll;
+
+
+}
+
+p {
+    margin-top: 0px;
+}

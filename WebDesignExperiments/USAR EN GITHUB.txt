@@ -1,0 +1,16 @@
+ACTUALIZAR
+	git init
+	git add .
+	git commit -m "actualizacion del proyecto"
+	---PUEDE HABER ERROR EN ESTA INSTUCCION
+	git remote add origin https://github.com/cozakoo/WebDesignExperiments.git
+	git branch -M main
+	git push -u origin main
+
+
+DESCARGAR UN PROYECTO
+	git init
+	git remote add origin [PEGAR_ACA_LA_URL_COPIADA] + [ENTER]
+	git remote -v
+	git clone [PEGAR_ACA_LA_URL_COPIADA] + [ENTER]
+	ls -l
